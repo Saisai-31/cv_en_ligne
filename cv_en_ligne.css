@@ -1,6 +1,7 @@
 body{
     background-image:url(nature.jpg);
     background-attachment: fixed;
+    background-size: cover;
 }
 
 h3{
@@ -45,4 +46,9 @@ p{
 
 .texte{
     width: 70%;
+}
+
+.github{
+    text-align: center;
+    
 }
