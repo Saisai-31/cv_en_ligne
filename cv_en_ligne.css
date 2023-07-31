@@ -1,0 +1,48 @@
+body{
+    background-image:url(nature.jpg);
+    background-attachment: fixed;
+}
+
+h3{
+    text-align: center;
+}
+
+.photo{
+   text-align: center;
+}
+
+
+table{
+    margin: auto;
+    width: auto;
+}
+
+form{
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+p{
+    text-align: center;
+}
+
+.nom{
+    width: 50%;
+}
+
+.email{
+    width: 50%;
+}
+
+.telephone{
+    width: 50%;
+}
+
+.objet{
+    width: 50%;
+}
+
+.texte{
+    width: 70%;
+}

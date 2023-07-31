@@ -3,15 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cv_en_ligne.css">
         <title>Mon cv en ligne</title>
-        <!--Image de fond-->
-        <style>
-            body{
-                background-image:url(nature.jpg);
-                background-attachment: fixed;
-            }
-        </style>
-        
         
     </head>
 
@@ -21,19 +14,21 @@
     <br><br><br><br>
 
 <!--Accueil-->
+        <div class="photo">
         <a id="exercice1"></a><h3>Accueil</h3>
         <img src="cyril2.jpg" alt="Ma photo">
-        <table cellspacing="0" width="500">
+        </div>
+        <table cellspacing="20" cellpadding="5" width="500">     
             <tr>
-                <td>Nom</td>
+                <td>Nom :</td>
                 <td>Pholoppe</td>
             </tr>
             <tr>
-                <td>Prénom</td>
+                <td>Prénom :</td>
                 <td>Cyril</td>
             </tr>
             <tr></tr>
-                <td>Profession</td>
+                <td>Profession :</td>
                 <td>Développeur Web et Web Mobile Junior</td>
         </table>
         <br><br><br><br><br><br><br><br><br> 
@@ -100,7 +95,7 @@
 <!--Portfolio-->
         <a id="exercice4"></a><h3>Portfolio</h3>
         <p>Mes différents projets sont disponibles sur Git Hub</p>
-        <a href="https://github.com/Saisai-31" target="_blank">Mon Git Hub</a>
+        <p><a href="https://github.com/Saisai-31" target="_blank">Mon Git Hub</a></p>
         
 
         <br><br><br><br><br><br><br><br><br> 
@@ -141,29 +136,38 @@
                 </tr>
                 
             </table>
-
-            <h3>Formulaire de Contact</h3>
+            
                 <form action="">
+                    <fieldset>
+                        <legend><h3>Formulaire de contact:</h3></legend>
                     <div>
-                        <label for=""><input type="text" placeholder="Nom et Prénom" autofocus required></label>
-                    </div>               
-                    <div>
-                        <label for=""><input type="email" placeholder="email@email.com" required></label>
+                        <label>Mademoiselle</label><input type="radio" name="salutation" checked><label>Madame</label><input type="radio" name="salutation"><label>Monsieur</label><input type="radio" name="salutation">
                     </div>
                     <div>
-                        <label for=""><input type="tel" placeholder="Téléphone" required></label>
+                        <label for=""><input type="text" placeholder="Nom et Prénom" autofocus required  class="nom"></label>
                     </div>
                     <div>
-                        <label for=""><input type="text"placeholder="Objet" required></label>
+                        <label for=""><input type="email" placeholder="email@email.com" required class="email"></label>
                     </div>
-                    <div>        
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                    <div>
+                        <label for=""><input type="tel" placeholder="Téléphone" required class="telephone"></label>
+                    </div>
+                    <div>
+                        <label for=""><input type="text"placeholder="Objet" required class="objet"></label>
+                    </div>
+                    <div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="texte"></textarea>
                     </div>
                     <div>
                         <label for=""><input type="submit"></label>
                         <label for=""><input type="reset" value="Annuler"></label>
-                    </div> 
-                    User : <input type="text">  <br>
+                    </div>
+                    </fieldset>
+                </form>
+
+                        
+                    
+                    <!-- User : <input type="text">  <br>
                     <input type="password" placeholder="Mot de passe"><br>
                     <input type="radio" checked><br>
                     <input type="checkbox" name="" id="" checked><br>
@@ -209,8 +213,8 @@
                             </optgroup>
                             </select>
                         </td>
-                    </tr>
-                </form>
+                    </tr> -->
+                
 
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <a href="index.html#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
