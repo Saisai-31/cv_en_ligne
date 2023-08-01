@@ -9,15 +9,23 @@
     </head>
 
     <body>
-
-
-    <br><br><br><br>
+    <div id="button">
+        <div class="but"><button><a href="#exercice1">Accueil</a></button></div>
+        <div class="but"><button><a href="#exercice2">Présentation</a><!-- &emsp; --></button></div>
+        <div class="but"><button><a href="#exercice3">Compétences</a></button></div>
+        <div class="but"><button><a href="#exercice4">Potfolio</a></button></div>
+        <div class="but"><button><a href="#exercice5">Contact</a></button></div>
+        <a id="menu"></a>
+    </div>
+        
 
 <!--Accueil-->
+        
+        <a id="exercice1"><h3>Accueil</h3></a>
         <div class="photo">
-        <a id="exercice1"></a><h3>Accueil</h3>
-        <img src="cyril2.jpg" alt="Ma photo">
+        <img src="cyril.jpg" alt="Ma photo" height="400">
         </div>
+
         <table cellspacing="20" cellpadding="5" width="500">     
             <tr>
                 <td>Nom :</td>
@@ -32,7 +40,7 @@
                 <td>Développeur Web et Web Mobile Junior</td>
         </table>
         <br><br><br><br><br><br><br><br><br> 
-        <a href="index.html#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
+        <a href="#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
         
         <br><br><br><br><br><br><br><br><br>
            
@@ -43,63 +51,84 @@
         </p>
          
         <br><br><br><br><br><br><br><br><br>
-        <a href="index.html#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
+        <a href="#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
         
         <br><br><br><br><br><br><br><br><br>
 
 <!--Compétences-->
         <a id="exercice3"></a><h3>Compétences</h3>
-        <H4>Compétences techniques :</H4>
-        <ul><h4>Systèmes d'exploitations</h4>
-            <li>Mac</li>
-            <li>Linux</li>
-            <li>MS-DOS</li>
-            <li>Windows 98</li>
-            <li>Windows XP</li>
-            <li>Windows Vista</li>
-            <li>Windows 10</li>
-        </ul>
-        <ul><h4>Langages de programations</h4>
-            <li>HTML5</li>
-            <li>CSS3</li>
-        </ul>                     
-        <ul><h4>Outils maîtrisés</h4>
-            <li>VSCode</li>
-            <li>Bash (le terminal)</li>
-            <li>GitHub Desktop</li>
-        </ul>
-        <ul><h4>Maketage</h4>
-            <li>Pencil</li>
-        </ul> 
-        <ul><h4>Graphisme</h4>
-            <li>Gimp 2</li>
-        </ul>
-        <ul><h4>Bureautiques</h4>
-            <li>Word</li>
-            <li>Excel</li>
-            <li>Power Point</li>
-        </ul>
-       <h4>Softs skills :</h4>
-       <ul>
+        <div class="skills">
+        <h4>Softs skills :</h4>
+        
+        <ul>
         <li>Capacité d'adaptation</li>
         <li>Autonome</li>
         <li>Aisance au dialogue</li>
         <li>Travail en équipe</li>
        </ul>
+        </div>
+       
+        <div class="toutlescontainers">
+        <H4>Compétences techniques :</H4>
+            <div class="container">
+                <ul><h4>Systèmes d'exploitations</h4>
+                    <li>Mac</li>
+                    <li>Linux</li>
+                    <li>MS-DOS</li>
+                    <li>Windows 98</li>
+                    <li>Windows XP</li>
+                    <li>Windows Vista</li>
+                    <li>Windows 10</li>
+                </ul>
+            </div>
+            <div class="container">
+                <ul><h4>Langages de programations</h4>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                </ul> 
+            </div>
+            <div class="container">
+                <ul><h4>Outils maîtrisés</h4>
+                    <li>VSCode</li>
+                    <li>Bash (le terminal)</li>
+                    <li>GitHub Desktop</li>
+                </ul>
+            </div>
+            <div class="container">
+                <ul><h4>Maketage</h4>
+                    <li>Pencil</li>
+                </ul> 
+            </div>                 
+            <div class="container">
+                <ul><h4>Graphisme</h4>
+                    <li>Gimp 2</li>
+                </ul>
+            </div>
+            <div class="container">
+                <ul><h4>Bureautiques</h4>
+                    <li>Word</li>
+                    <li>Excel</li>
+                    <li>Power Point</li>
+                </ul>
+            </div>
+        </div>
+        
+                
+    
 
         <br><br><br><br><br><br><br><br><br>
-        <a href="index.html#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
+        <a href="#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
         
         <br><br><br><br><br><br><br><br><br>
 
 <!--Portfolio-->
         <a id="exercice4"></a><h3>Portfolio</h3>
         <p>Mes différents projets sont disponibles sur Git Hub</p>
-        <a class="github" href="https://github.com/Saisai-31" target="_blank">Mon Git Hub</a>
+        <div class="github"><a href="https://github.com/Saisai-31" target="_blank">Mon Git Hub</a></div>
         
 
         <br><br><br><br><br><br><br><br><br> 
-        <a href="index.html#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
+        <a href="#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
         
         <br><br><br><br><br><br><br><br><br>
 
@@ -217,10 +246,10 @@
                 
 
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <a href="index.html#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
+        <a href="#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+                    <!-- <a href="index.html#menu"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a> -->
     </body>
 
 </html>
