@@ -10,6 +10,29 @@ body{
     padding: 0;
 }
 
+#button{
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
+}
+.but{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+a:hover{
+    background-color: red;
+    border: 5px ridge purple;
+}
+
+a:visited{
+    color: purple;
+}
+
+a{
+    text-decoration: none;
+}
+
 h3{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,6 +40,7 @@ h3{
     font-weight: lighter;
     font-weight: bolder;
 }
+
 h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -25,6 +49,29 @@ h4{
    text-align: center;
 }
 
+p{
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    padding-left: 40%;
+}
+
+.container{
+    
+    
+}
+.toutlescontainers{
+    border: 1px solid;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.github{
+    text-align: center;
+}
 
 table{
     margin: auto;
@@ -37,9 +84,7 @@ form{
     width: 60%;
 }
 
-p{
-    text-align: center;
-}
+
 
 .nom{
     width: 40%;
@@ -61,43 +106,9 @@ p{
     width: 70%;
 }
 
-.github{
-    text-align: center;
-}
-a{
-    text-decoration: none;
-}
 
-a:hover{
-    background-color: red;
-    border: 5px ridge purple;
-}
 
-a:visited{
-    color: purple;
-}
 
-.skills{
-    display: flex;
-    padding-left: 40%;
-}
 
-.container{
-    
-    
-}
-.toutlescontainers{
-    border: 1px solid;
-    display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-#button{
-    display: flex;
-    justify-content: center;
-    padding: 20px 50px 20px 50px;
-}
-.but{
-    margin-left: 110px;
-    margin-right: 110px;
-}
+
+
