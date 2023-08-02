@@ -14,14 +14,13 @@ body{
     display: flex;
     justify-content: center;
     padding: 20px 50px 20px 50px;
-    
 }
+
 .but{
     margin-left: 8%;
     margin-right: 10%;
 }
    
-
 a:hover{
     background-color: red;
     border: 5px ridge purple;
@@ -99,10 +98,6 @@ p{
     margin-right: 30%;
 }
 
-.container{
-    
-    
-}
 .toutlescontainers{
     border: 5px outset;
     box-shadow:10px 10px 10px 10px rgba(0,0,0,0.5);
