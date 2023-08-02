@@ -1,14 +1,34 @@
+/* Présentation général de la page */
+
 body{
     background-image:url(nature.jpg);
     background-attachment: fixed;
     background-size: 800px 600px contain;
     background-repeat: no-repeat;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 20px;
     text-align: justify;
     /* margin: 0;
     padding: 0; */
 }
+
+h3,h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    font-weight: bolder;
+}
+
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flecheHaut{
+    margin-left: 95%;
+}
+
+/* Boutton menu */
 
 #button{
     display: flex;
@@ -20,7 +40,8 @@ body{
     margin-left: 8%;
     margin-right: 10%;
 }
-   
+/* Liens */
+
 a:hover{
     background-color: red;
     border: 5px ridge purple;
@@ -34,6 +55,8 @@ a{
     text-decoration: none;
 }
 
+/* Bandeau haut et bas */
+
 .curriculum{
     text-align: center;
     border: 1px solid;
@@ -41,21 +64,11 @@ a{
     border-radius: 30px;
 }
 
+/* Accueil */
+
 .curri{
     margin-top: 15%;
     height: 500px;
-}
-
-h3,h2{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    font-weight: lighter;
-    font-weight: bolder;
-}
-
-h4{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pho{
@@ -75,9 +88,7 @@ h4{
     transform:scale(1.5);
 }
 
-.flecheHaut{
-    margin-left: 95%;
-}
+/* Présentation */
 
 p{
     text-align: center;
@@ -87,6 +98,8 @@ p{
     height: 250px;
     margin-top: 20%;
 }
+
+/* Compétences */
 
 .skills{
     margin-top: 5%;
@@ -108,6 +121,8 @@ p{
     height: 250px;
 }
 
+/* Portfolio */
+
 .portfolio{
     margin-top: 20%;
     height: 250px;
@@ -116,6 +131,8 @@ p{
 .github{
     text-align: center;
 }
+
+/* Compétences */
 
 table{
    margin-top: 5%;
