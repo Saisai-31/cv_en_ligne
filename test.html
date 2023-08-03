@@ -3,29 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        #cont{
-            border: 1px solid;
-            display: flex;
-        }
-        .dv{
-            border: 1px solid;
-            height: 150px;
-            width: 180px;
-        }
-        
-    
-    </style>
+    <link rel="stylesheet" href="test.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="cont">
-        <div class="dv">1</div>
-        <div class="dv">2</div>
-        <div class="dv">3</div>
-        <div class="dv">4</div>
-        <div class="dv">5</div>
-        <div class="dv">6</div>
+
+    <div class="maVideo"><!-- "monConteneur" -->
+        <video autoplay loop muted plays-inline class="backgroud-clip">
+            <source src="nature.mp4" type="video/mp4">
+        </video>
+
+        <div class="maVideoContenu"><!-- "contenu" -->
+            <h1>Plus de détail</h1>
+            <a href="#">Démarrer l'apprentissage DWWM</a>
+        </div>
     </div>
+
 </body>
 </html>
