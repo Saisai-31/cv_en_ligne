@@ -37,15 +37,25 @@ h4{
 }
 
 .but{
-    margin-left: 8%;
-    margin-right: 10%;
-    
+    margin-left: 5%;
+    margin-right: 5%; 
+    height: 50px;   
+    width: 100px;
 }
 
+button{
+    height: 50px;
+    width: 100px;
+    font-size: medium;
+    border-radius: 50px;
+    background-color: aquamarine;
+    position: fixed;
+    
+}
 /* Liens */
 
-a.but:hover{
-
+button:hover{
+    transform: scale(1.5);
 }
 
 a:visited{
