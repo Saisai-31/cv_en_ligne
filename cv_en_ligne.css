@@ -8,8 +8,8 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: justify;
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
 }
 
 h3,h2{
@@ -32,24 +32,24 @@ h4{
 
 #button{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
     padding: 20px 50px 20px 50px;
 }
 
 .but{
-    margin-left: 5%;
-    margin-right: 5%; 
     height: 50px;   
     width: 100px;
 }
 
 button{
     height: 50px;
-    width: 100px;
+    width: 150px;
     font-size: medium;
     border-radius: 50px;
     background-color: aquamarine;
     position: fixed;
+    box-shadow:5px 5px 5px 5px rgba(0,0,0,0.5);
     
 }
 /* Liens */
@@ -87,18 +87,18 @@ span{
     box-shadow:10px 10px 10px 10px rgba(0,0,0,0.5);
     margin-top: 5%;
     margin-left: 40%;
-    height: 500px;
+    height: 450px;
     width: 50%;
     padding-top: 5%;
 }
 
 .coordonnée{
-    margin: 5%;
+    margin:5%;
 }
 
 .pho{
     margin-top: 12%;
-    margin-left: 6%;
+    margin-left: 7%;
     float: left;
 }
 
@@ -119,7 +119,7 @@ p{
 }
 
 .presentation{
-    height: 250px;
+    height: 150px;
     margin-top: 20%;
 }
 
@@ -143,13 +143,14 @@ p{
     padding-right: 10%;
     margin: 5%;
     height: 300px;
+    margin-bottom: 2px;
 }
 
 /* Portfolio */
 
 .portfolio{
     margin-top: 20%;
-    height: 250px;
+    height: 150px;
 }
 
 .github{
@@ -198,64 +199,4 @@ form{
 
 .annuler{
     background-color: red;
-}
-
-/* La Vidéo */
-*{
-    
-    box-sizing: border-box;
-    font-family: 'Poppins';
-}
-
-.maVideo{
-    width: 100%;
-    height: 100vh;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.maVideoContenu{
-    text-align: center;
-}
-
-.maVideoContenu{
-    font-size: 60px;
-    color: white;
-    margin-bottom: 50px;
-}
-
-.maVideoContenu a{
-    font-size: 23px;
-    color: white;
-    text-decoration: none;
-    border: 2px solid white;
-    padding: 15px 15px;
-    border-radius: 50px;
-    transition: 0.3s;
-}
-
-.maVideoContenu a:hover{
-    background-color: white;
-    color: black;
-}
-
-.backgroud-clip{
-    position: fixed;
-    background-size: cover;
-    background-attachment: fixed;
-    
-    z-index: -1;
-}
-
-@media (min-aspect-ration:16/9){
-    .backgroud-clip{
-        width: 100%;
-    }
-}
-
-.backgroud-clip{
-	max-width: 120%;
-	height:200%;
 }
