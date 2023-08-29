@@ -43,8 +43,8 @@ h4{
 }
 
 button{
-    height: 50px;
-    width: 150px;
+    height: 5vh;
+    width: 10vw;
     font-size: medium;
     border-radius: 50px;
     background-color: aquamarine;
@@ -114,7 +114,7 @@ span{
 
 /* Présentation */
 
-p{
+.presenationtexte{
     text-align: center;
 }
 
@@ -155,6 +155,15 @@ p{
 
 .github{
     text-align: center;
+}
+
+.photographe{
+    height: 20%;
+    width: 20%;
+}
+.siteInfo{
+    height: 20%;
+    width: 20%;
 }
 
 /* Compétences */
