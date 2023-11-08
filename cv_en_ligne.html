@@ -10,7 +10,9 @@
 
     <body>
 <!-- Bouton du menu -->
-<a id="menu"></a>
+    <header>
+        <nav>
+        <a id="menu"></a>
         <div id="button">
             
             <div class="but"><button><a href="#exercice1">Accueil</a></button></div>
@@ -20,8 +22,12 @@
             <div class="but"><button><a href="#exercice5">Contact</a></button></div>
             <a id="menu"></a>
         </div>
+        </nav>
+    </header>
 
+    <main>
 <!-- Bandeau CURRICULUM VITAE -->
+<div class="content">
         <div class="curriculum">
                 <a id="exercice1"></a><h3>CURRICULUM VITAE</h3>
         </div>
@@ -48,7 +54,7 @@
                 <td>45 ans</td>
             </tr>
             <tr>
-                <td>Adresse</td>
+                <td>Adresse :</td>
                 <td>3, square des Hirondelles 45770 SARAN</td>
             </tr>
         </table>
@@ -169,7 +175,7 @@
             <a id="exercice5"></a><h3>Contact</h3>
         </div>
        
-            <table cellspacing="0" width="500">
+            <table class="tablecontact" cellspacing="0" width="500">
                 <tr>
                     <td>Prénom</td>
                     <td>Cyril</td>
@@ -214,10 +220,10 @@
                         <label for=""><input type="email" placeholder="email@email.com" required class="email"></label>
                     </div>
                     <div>
-                        <label for=""><input type="tel" placeholder="Téléphone" required class="telephone"></label>
+                        <label for=""><input type="tel" placeholder="Téléphone" class="telephone"></label>
                     </div>
                     <div>
-                        <label for=""><input type="text"placeholder="Objet" required class="objet"></label>
+                        <label for=""><input type="text"placeholder="Objet" class="objet"></label>
                     </div>
                     <div>
                         <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="texte"></textarea>
@@ -234,6 +240,12 @@
                         <h1></h1>
                     </div>
                     <br><br><br><br><br><br><br>
+    </main>
+</div>
+    <footer>
+        <p>Cyril Pholoppe &copy; 2023</p> 
+        <a href="#menu"class="flecheHaut"><img src="fleche_haut.png" alt="Retour au menu" width="50" height="50"></a>
+    </footer>
     
                     
                     <!-- User : <input type="text">  <br>

@@ -1,3 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
 /* Présentation général de la page */
 
 body{
@@ -5,11 +15,17 @@ body{
     background-attachment: fixed;
     background-size: 800px 600px contain;
     background-repeat: no-repeat;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: justify;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+main, .content{
+    padding: 50px 50px 50px;
+    flex-grow: 1;
 }
 
 h3,h2{
@@ -88,8 +104,9 @@ span{
     margin-top: 5%;
     margin-left: 40%;
     height: 450px;
-    width: 50%;
+    width: 55%;
     padding-top: 5%;
+    background-color: rgb(145, 238, 145,0.50);
 }
 
 .coordonnée{
@@ -133,6 +150,7 @@ span{
     box-shadow:10px 10px 10px 10px rgba(0,0,0,0.5);
     margin-left: 30%;
     margin-right: 30%;
+    background-color: rgba(145, 238, 145, 0.50);
 }
 
 .toutlescontainers{
@@ -144,6 +162,7 @@ span{
     margin: 5%;
     height: 300px;
     margin-bottom: 2px;
+    background-color: rgba(145, 238, 145, 0.50);
 }
 
 /* Portfolio */
@@ -166,18 +185,36 @@ span{
     width: 20%;
 }
 
-/* Compétences */
+/* Contact */
 
-table{
-   margin-top: 5%;
-   margin-left: 25%;
+.tablecontact{
+    margin-top: 5%;
+    margin-left: 25%;
+    padding: 10px;
     width: auto;
+    border: 5px outset;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+    background-color: rgba(145, 238, 145, 0.50);
+    border-radius: 20px;
 }
+.tablecontact, tr, td{
+    
+    padding: 10px;
+   
+}
+
+
 
 form{
     margin: auto;
     text-align: center;
     width: 60%;
+}
+fieldset{
+    border: 5px outset;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+    background-color: rgba(145, 238, 145, 0.50);
+    border-radius: 20px;
 }
 
 
@@ -207,5 +244,5 @@ form{
 }
 
 .annuler{
-    background-color: red;
+    background-color: lightgreen;
 }
